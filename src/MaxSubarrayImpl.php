@@ -32,8 +32,10 @@ class MaxSubarrayImpl implements MaxSubarray
 //PHP version 7.2
 //Command to run tests:  ./vendor/bin/phpunit --bootstrap vendor/autoload.php tests
 
-/*$test = new MaxSubarrayImpl;
-//$value = $test->contiguous([-100000,4,5,5,2222,444]);
+/* Test debugger section
+$t = 1;
+$test = new MaxSubarrayImpl;
+$value = $test->contiguous([-100000,4,5,5,2222,444]);
 $value = $test->contiguous([-100000,-1,-2,-3,-4,-4444]);
 echo($value);
 */

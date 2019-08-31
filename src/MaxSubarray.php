@@ -1,5 +1,5 @@
 <?php
-//namespace LeadDeskTasks;
+namespace LeadDeskTasks;
 
 interface MaxSubarray
 {

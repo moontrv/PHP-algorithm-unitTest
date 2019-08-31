@@ -1,5 +1,5 @@
 <?php
-//namespace LeadDeskTasks;
+namespace LeadDeskTasks;
 
 include 'Anagram.php';
 
@@ -35,3 +35,6 @@ class AnagramImpl implements Anagram
         return $this->calword($word1) % $this->calword($word2) == 0;
     }
 }
+
+//PHP version 7.2
+//Command to run tests:  ./vendor/bin/phpunit --bootstrap vendor/autoload.php tests

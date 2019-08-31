@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+namespace LeadDeskTasks;
+
 use PHPUnit\Framework\TestCase;
 require __DIR__ . "/../src/AnagramImpl.php";
 
